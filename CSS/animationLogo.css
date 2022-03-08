@@ -1,7 +1,22 @@
-div{
+#photo{
     width: 10%;
     height: 10%;
+    
 }
-#photo{ width: 10%;
-    height: 10%;}
+
+@keyframes Example{
+    0%{background-color: aqua;}
+    50%{background-color: black;}
+    100%{background-color: azure;}
+}
+
+div{
+    width: 5cm;
+    height: 5cm;
+    background-color: aqua;
+    animation-name: Example;
+    animation-duration: 3s;
+
+}
+
 
