@@ -1,22 +1,22 @@
-#photo{
-    width: 10%;
-    height: 10%;
+
+
+@keyframes icc{
+    0%{filter: hue-rotate(1deg);}
+    50%{filter: hue-rotate(360deg);}
+    100%{filter: hue-rotate(1deg);}
+}
+
+
+.image-color-change{
+    width: 50vh;
+    height: 50vw;
+    background: url('../Images/linkedin.png') center ;
+    background-size: cover;
+    animation: icc 10s;
+    animation-iteration-count: infinite;
     
 }
 
-@keyframes Example{
-    0%{background-color: aqua;}
-    50%{background-color: black;}
-    100%{background-color: azure;}
-}
 
-div{
-    width: 5cm;
-    height: 5cm;
-    background-color: aqua;
-    animation-name: Example;
-    animation-duration: 3s;
-
-}
 
 
